@@ -1,1 +1,158 @@
-/* Start coding here */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 3% 0 3% 0;
+  font-size: 2em;
+  flex-wrap: wrap;
+}
+
+.jobOrange {
+  background: linear-gradient(
+    to top,
+    rgb(255, 132, 0, 0.5) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  border-radius: 5px;
+  padding: 0 1px;
+}
+
+.header span {
+  width: 100%;
+}
+
+.logo {
+  color: orange;
+  background-color: antiquewhite;
+  width: fit-content;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+
+.card {
+  width: 270px;
+  height: 220px;
+  text-align: left;
+  margin: 1%;
+  padding: 1%;
+  position: relative;
+  border: 1px solid rgb(224, 223, 223);
+  border-radius: 5px;
+}
+.fa-solid {
+  padding: 15px;
+}
+.card:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+.card:hover .logo i {
+  width: fit-content;
+  color: white;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.fa-dollar-sign .fa-dollar-sign {
+  width: fit-content;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.titleContainer {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.avaliableSeat {
+  color: rgb(157, 155, 155);
+}
+.contentLocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-dollar-sign {
+  margin-right: 10px;
+}
+.rightArrow {
+  position: absolute;
+  left: 250px;
+  bottom: 1px;
+}
+.rightArrow-8 {
+  color: white;
+  right: 16%;
+  top: 40%;
+}
+
+.title-8-container {
+  background-color: rgb(255, 178, 36);
+}
+
+.title-8 {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .card {
+    width: 320px;
+  }
+  .card div {
+    margin: 5% 0 0 5%;
+  }
+
+  .title-8 {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .rightArrow {
+    position: absolute;
+    left: 250px;
+    bottom: 1px;
+  }
+  .rightArrow-8 {
+    color: white;
+    position: absolute;
+    right: 16%;
+    top: 40%;
+  }
+}
