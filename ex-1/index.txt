@@ -1,0 +1,6 @@
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .contener {
+    display: flex;
+    flex-direction: column;
+  }
+}
